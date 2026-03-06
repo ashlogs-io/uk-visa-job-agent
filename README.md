@@ -7,6 +7,7 @@ An AI-powered job hunting agent built in Python that automatically finds, filter
 ## What It Does
 
 Finding visa-sponsored tech jobs in the UK manually is time-consuming — you have to search job boards, cross-reference the government's licensed sponsor register, check salary thresholds, and write tailored cover letters for every application. This agent automates the entire process.
+
 ```
 Searches Adzuna for UK tech jobs
          ↓
@@ -20,10 +21,12 @@ Generates a tailored cover letter for every job scoring 5+
          ↓
 Saves cover letters as text files — ready to send
 ```
+
 ---
 
 ## Example Output
 
+```
 Loading sponsor list...
 Loaded 140881 licensed sponsors
 
@@ -49,6 +52,7 @@ X SALARY TOO LOW      | M365 Cloud Engineer at Reed | £35,000
   Cover letter saved: cover_letters/Azure_Cloud_Engineer_COMPUTACENTER.txt
 
 ✅ 2 cover letters saved to the cover_letters/ folder
+```
 
 ---
 
@@ -92,12 +96,13 @@ For any job scoring 5 or above, Claude generates a tailored cover letter based o
 ### Installation
 
 Clone the repository:
+```bash
 git clone https://github.com/ashlogs-io/uk-visa-job-agent
 cd uk-visa-job-agent
-
+```
 
 Install dependencies:
-```
+```bash
 pip install requests pandas anthropic python-dotenv
 ```
 
@@ -114,7 +119,7 @@ Download the gov.uk sponsor list CSV and save it in the project folder as `spons
 
 ### Run
 
-```
+```bash
 python3 job_agent.py
 ```
 
