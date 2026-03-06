@@ -7,7 +7,7 @@ An AI-powered job hunting agent built in Python that automatically finds, filter
 ## What It Does
 
 Finding visa-sponsored tech jobs in the UK manually is time-consuming — you have to search job boards, cross-reference the government's licensed sponsor register, check salary thresholds, and write tailored cover letters for every application. This agent automates the entire process.
-
+```
 Searches Adzuna for UK tech jobs
          ↓
 Filters by £41,700 Skilled Worker visa salary threshold
@@ -19,7 +19,7 @@ Claude AI analyses each qualifying job and scores it 1-10
 Generates a tailored cover letter for every job scoring 5+
          ↓
 Saves cover letters as text files — ready to send
-
+```
 ---
 
 ## Example Output
